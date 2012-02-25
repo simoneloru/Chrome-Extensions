@@ -1,0 +1,12 @@
+AUTHOR: Simone Loru
+VERSION: 0.3
+DESCRIPTION: Go to a random deviantArtist page, deviation or group.
+
+HOW DOES IT WORK:
+Just click on the extension icon to open a random deviation on deviantart.
+
+The option window allow you to choose if:
+
+- you want to open a random deviation, a random profile or a random group
+
+- you want to open or not the random page in the current tab or in a new tab

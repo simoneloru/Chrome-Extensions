@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/options.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/settings.js"></script>
+	<script type="text/javascript" src="js/options.js"></script>
+    </head>
+  <body onLoad="init()" >
+        <div id="header">
+            <h1>
+            <img src="images/icon128.png" style="float:left"/>
+            DeviantRoulette - Options Page
+            </h1>
+        </div>
+        <div id="center">
+            <h2>
+                Choose a random category (default behaviour is Random deviation)
+            </h2>
+            <input type="radio" name="type_setting" value=deviation id="deviation" /> Random deviation<br />
+            <input type="radio" name="type_setting" value=deviant id="deviant" /> Random profile<br />
+            <input type="radio" name="type_setting" value=group id="group" /> Random group<br />
+            <br/>
+            <h2>  
+            Check this if you want to open a new tab everytime you click the icon <input type="checkbox" name="current_tab" value="true" id="current_tab" /> <br />
+            </h2>
+            <input type="button" name="save_setting" onclick=save(); value="Save" />
+        </div>
+    </body>
+</html>

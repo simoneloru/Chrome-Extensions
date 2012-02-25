@@ -1,0 +1,39 @@
+body{ 
+background-color:#dc8;
+font-size:16px;
+font-family:Verdana,Helvetica,sans-serif; 
+margin:100px 30px; 
+padding:0; 
+}
+
+#header{ 
+background-color:#333;
+height:auto !important;
+font-size:16;
+height:150px;
+}
+
+#center { 
+background-color:#eec; 
+height:auto !important; /* for modern browsers */
+height:650px; /* for IE5.x and IE6 */
+font-size:12;
+margin: 20px 0px;
+text-align:center;
+}
+
+#footer { 
+clear:both;
+background-color:#333;
+height:100px;
+}
+
+img {
+height:40px;
+}
+
+h1
+{
+color:orange;
+text-align:center;
+}

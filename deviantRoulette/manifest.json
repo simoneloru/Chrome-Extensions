@@ -1,0 +1,19 @@
+{
+	"name": "DeviantRoulette",
+	"version": "0.30",
+	"options_page": "options.html",
+	"description": "Go to a random deviantArtist page, deviation or group",	
+	"background_page":"background.html",
+	"browser_action":{
+		"default_icon": "images/icon16.png",
+		"default_title": "Go to a random deviantArtist page"
+		},
+	"icons": {
+		"128": "images/icon128.png",
+		"48": "images/icon48.png",
+		"16": "images/icon16.png"
+		},
+	"permissions": [
+		"tabs"	
+	]
+}
