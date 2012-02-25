@@ -1,6 +1,6 @@
 {
 	"name": "DeviantRoulette",
-	"version": "0.30",
+	"version": "0.31",
 	"options_page": "options.html",
 	"description": "Go to a random deviantArtist page, deviation or group",	
 	"background_page":"background.html",
