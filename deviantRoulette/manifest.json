@@ -1,6 +1,7 @@
 {
+	"manifest_version": 2,
 	"name": "DeviantRoulette",
-	"version": "0.31",
+	"version": "0.32",
 	"options_page": "options.html",
 	"description": "Go to a random deviantArtist page, deviation or group",	
 	"background_page":"background.html",
