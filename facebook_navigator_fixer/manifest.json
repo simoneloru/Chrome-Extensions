@@ -1,0 +1,26 @@
+{
+  "name": "Facebook navbar fixer",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Facebook navbar fixer",
+  "homepage_url": "http://www.simoneloru.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": [
+    "https://www.facebook.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
